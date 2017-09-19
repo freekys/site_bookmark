@@ -25,7 +25,7 @@ SECRET_KEY = '52^8^5en)0^a14l@x4g-r%kmiw3ss-kqd!@$z#c^2nal62$sql'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
