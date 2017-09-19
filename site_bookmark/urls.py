@@ -20,9 +20,10 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^bookmark/', include('bookmark.urls'))
+    url(r'^bookmark/', include('bookmark.urls')),
 #    url(r'^bookmark/$', BookmarkListV.as_view(), name='index'),
     # 정규표현식에서 ^는 시작 $는 끝을 의미, ()는 그룹을 지정
     # pk는 primary key(를 의미 d는 digit, +는 숫자가 하나 이상
 #    url(r'^bookmark/(?P<pk>\d+)/$', BookmarkDetailV.as_view(),name='detail')
 ]
+

@@ -21,6 +21,6 @@ urlpatterns = [
 # 정규표현식에서 ^는 시작 $는 끝을 의미, ()는 그룹을 지정
 # pk는 primary key(를 의미 d는 digit, +는 숫자가 하나 이상
 
-    url(r'^/$', BookmarkListV.as_view(), name='index'),
+    url(r'^$', BookmarkListV.as_view(), name='index'),
     url(r'^(?P<pk>\d+)/$', BookmarkDetailV.as_view(),name='detail')
 ]
